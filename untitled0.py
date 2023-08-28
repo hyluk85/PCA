@@ -68,3 +68,4 @@ plt.scatter(pca_df['PC1'],pca_df['PC2'],cmap='Ser2_r',s=400)
 
 for x,y, label in zip(pca_df['PC1'],pca_df['PC2'],ID):
     plt.text(x,y,label, fontsize=10)
+##i dont know##
